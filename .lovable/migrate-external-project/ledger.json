@@ -1,0 +1,19 @@
+{
+  "source": "code-archive",
+  "archive": "project-runner-3760ca0f-main.zip",
+  "capabilities": [
+    { "capability": "application code and routes", "source": "TanStack Start DevOps Manager site", "outcome": "migrate", "status": "verified", "next_action": "None; all seven routes load in the preview." },
+    { "capability": "database schema", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None; no application database was present." },
+    { "capability": "application records", "source": "none detected; signup and demo forms use in-memory sample confirmations", "outcome": "not_applicable", "status": "verified", "next_action": "None; the source contains no persistent store or record export." },
+    { "capability": "authentication identities", "source": "preview-only login and signup screens; no auth provider detected", "outcome": "not_applicable", "status": "verified", "next_action": "None; source screens do not create accounts." },
+    { "capability": "authorization", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "uploaded file bytes", "source": "wordmark and four bundled industry images; generated hero photograph", "outcome": "migrate", "status": "verified", "next_action": "None; all referenced images load in the preview." },
+    { "capability": "external providers", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "public endpoints and callbacks", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "webhooks", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "schedules", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "secrets", "source": "none detected", "outcome": "not_applicable", "status": "verified", "next_action": "None." },
+    { "capability": "cutover", "source": "source archive has no connected service", "outcome": "pending", "status": "pending", "next_action": "Publish only after user review." },
+    { "capability": "verification", "source": "current Lovable preview", "outcome": "verify", "status": "verified", "next_action": "None; all routes, forms, mobile and desktop layouts, and image loads were checked." }
+  ]
+}
